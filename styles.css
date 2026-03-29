@@ -72,10 +72,15 @@ p {
 ul {
     margin-left: 30px;
     margin-bottom: 15px;
+    list-style-type: square;
 }
 
 li {
     margin-bottom: 8px;
+}
+
+::marker {
+  color: #764ba2;
 }
 
 .highlight {
