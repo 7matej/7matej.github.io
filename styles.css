@@ -135,3 +135,17 @@ footer {
     display: block;
     border-radius: 8px;
 }
+
+.gallery {
+    display: flex; /* Aktivuje flexbox */
+    gap: 5px;    /* Mezera mezi obrázky */
+    justify-content: center; /* Zarovnání na střed (volitelné) */
+    flex-wrap: wrap; /* Pokud se nevejdou, zalamují se na další řádek */
+    margin: 30px;
+  }
+.gallery img {
+    max-width: 100%; /* Responzivita obrázku */
+    height: auto;
+    object-fit: cover;
+    width: 230px;
+  }
