@@ -148,4 +148,9 @@ footer {
     height: auto;
     object-fit: cover;
     width: 230px;
-  }
+}
+
+.vzorec {
+    text-align: center;
+    
+}
