@@ -142,7 +142,7 @@ footer {
     justify-content: center; /* Zarovnání na střed (volitelné) */
     flex-wrap: wrap; /* Pokud se nevejdou, zalamují se na další řádek */
     margin: 30px;
-  }
+}
 .gallery img {
     max-width: 100%; /* Responzivita obrázku */
     height: auto;
@@ -152,5 +152,13 @@ footer {
 
 .vzorec {
     text-align: center;
+}
 
+a {
+    color: hsla(250, 46%, 46%, 0.813);
+    text-decoration: none;
+}
+a:hover {
+    color: hsl(250, 46%, 46%);
+    text-decoration: underline;
 }
