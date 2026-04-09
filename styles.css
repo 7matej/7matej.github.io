@@ -165,6 +165,7 @@ footer {
 
 .vzorec {
     text-align: center;
+    overflow-x: scroll;
 }
 
 a {
