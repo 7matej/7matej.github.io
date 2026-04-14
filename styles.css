@@ -183,7 +183,7 @@ footer {
 
 .vzorec {
     text-align: center;
-    overflow-y: visible;
+    overflow-y: hidden;
     overflow-x: auto;
 }
 
