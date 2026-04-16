@@ -2,119 +2,52 @@
 <html lang="cs">
     <head>
         <meta charset="UTF-8">
+        <title>Matematická optika</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Parabolické zrcadlo</title>
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
+
         <nav>
             <ul>
+                <li class="nav-brand">Matematická optika</li>
                 <li>
                     <a href="index.html">Domů</a>
-                    <a href="zrcadla-ve-tvaru-kuzelosecek.html">Nový článek</a>
                 </li>
             </ul>
         </nav>
 
         <div class="container">
-            <header>
-                <h1>Parabolické zrcadlo</h1>
-                <p>Poznejte úžasné vlastnosti parabolického zrcadla!</p>
-                <p>Fyzika a aplikace optického zrcadla s parabolickou plochou.</p>
+            <header class="hero">
+                <span class="eyebrow">Přehled článků</span>
+                <h1>Články o geometrii, zrcadlech a optice</h1>
+                <p>Vyberte článek a zjistěte, jak fungují zrcadla tvarovaná jako kuželosečky. Tento web je zatím v počáteční fázi, další obsah brzy přibude.</p>
             </header>
-            
+
             <main>
-                <section>
-                    <h2>Co je parabolické zrcadlo?</h2>
-                    <p>Parabolické zrcadlo je optické zrcadlo, jehož odrazná plocha má tvar <strong>rotačního paraboloidu</strong>. Je to trojrozměrné těleso vytvořené rotací paraboly kolem její osy symetrie. Toto zrcadlo má unikátní vlastnosti, které jej dělají neocenitelným v mnoha aplikacích.</p>
-                    <div class="highlight">
-                        <strong>Zajímavost:</strong> Parabola je geometrické místo všech bodů, které jsou stejně vzdáleny od pevného bodu (ohniska) a od pevné přímky (řídící přímky).
+                <section class="article-overview">
+                    <div class="section-heading">
+                        <h2>Aktuálně dostupný článek</h2>
+                        <p>Prohlédněte si podrobný článek o parabolických, kulových, eliptických a hyperbolických zrcadlech.</p>
                     </div>
-                </section>
-                
-                <section>
-                    <h2>Vlastnosti parabolického zrcadla</h2>
-                    <h3>Optické vlastnosti</h3>
-                    <ul>
-                        <li><strong>Ohnisko (fokus):</strong> Parabolické zrcadlo má jeden ohniskový bod, kde se soustředí všechny paprsky rovnoběžné s osou zrcadla.</li>
-                        <li><strong>Rovnoběžné paprsky:</strong> Všechny paprsky dopadající rovnoběžně s osou se odrážejí přesně do ohniska.</li>
-                        <li><strong>Opačný efekt:</strong> Světlo emitované z ohniska se odráží v rovnoběžných paprscích.</li>
-                        <li><strong>Zvětšování:</strong> Parabolické zrcadla mohou zvětšovat obraz i soustředit energii na jednom místě.</li>
-                    </ul>
-                    
-                    <h3>Matematické vyjádření</h3>
-                    <p>Rovnice paraboly v kartézských souřadnicích:</p>
-                    <div class="formula">
-                        y² = 4px
+
+                    <div class="articles-grid">
+                        <article class="article-card">
+                            <div class="card-badge">Doporučeno</div>
+                            <h3><a href="zrcadla-ve-tvaru-kuzelosecek.html">Zrcadla ve tvaru kuželoseček</a></h3>
+                            <p>Probereme parabolické, kulové, eliptické a hyperbolické zrcadlo a vysvětlíme, proč se paprsky po odrazu soustředí nebo rozbíhají.</p>
+                            <div class="card-meta">
+                                <span>Matematika</span>
+                                <span>Optika</span>
+                            </div>
+                            <a class="btn" href="zrcadla-ve-tvaru-kuzelosecek.html">Číst článek</a>
+                        </article>
                     </div>
-                    <p>Kde <em>p</em> je vzdálenost od vrcholu k ohnisku.</p>
-                </section>
-                
-                <section>
-                    <h2>Aplikace parabolických zrcadel</h2>
-                    <div class="info-box">
-                        <div class="card">
-                            <h4>🔭 Astronomie</h4>
-                            <p>Používá se v teleskopech k soustředění světla ze vzdálených hvězd pro detekci velmi slabých objektů.</p>
-                        </div>
-                        <div class="card">
-                            <h4>🌀 Reflektory</h4>
-                            <p>Automobilové reflektory a svítilny používají parabolické povrchy k rozptylu světla.</p>
-                        </div>
-                        <div class="card">
-                            <h4>☀️ Solarní panely</h4>
-                            <p>Při soustředění sluneční energie se používají parabolické reflektory k ohřevu vody či generování elektřiny.</p>
-                        </div>
-                        <div class="card">
-                            <h4>📡 Parabolické antény</h4>
-                            <p>Satelitní a radarové antény využívají parabolické tvary k soustředění radiových vln.</p>
-                        </div>
-                        <div class="card">
-                            <h4>🎤 Akustika</h4>
-                            <p>Parabolické mikrofony soustředí zvuk podobně, jak parabolické zrcadlo soustředí světlo.</p>
-                        </div>
-                        <div class="card">
-                            <h4>💡 Reflektory</h4>
-                            <p>Reflektory v projekčních panelech a předsálkách odrážejí a soustředí světlo.</p>
-                        </div>
-                    </div>
-                </section>
-                
-                <section>
-                    <h2>Praktické příklady</h2>
-                    <h3>Keplerův dalekohled</h3>
-                    <p>Jeden z nejznámějších teleskopů používá parabolické zrcadlo jako primární optiku. Tímto způsobem se soustředí světlo z vesmíru a umožňuje nám pozorovat vzdálené galaxie a hvězdy.</p>
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/f/f7/Kepler_Space_Telescope.jpg" alt="Keplerův dalekohled" class="section-image">
-                    
-                    <h3>Satelitní antény</h3>
-                    <p>Parabolické antény přijímají signály z družic. Jejich tvar umožňuje přesné soustředění vysokofrekvenčních signálů na přijímač umístěný v ohnisku antény.</p>
-                    
-                    <h3>Sluneční spotřebiče</h3>
-                    <p>Koncentrační solární panely používají parabolické reflektory k soustředění slunečních paprsků. Tímto způsobem lze dosáhnout velmi vysokých teplot, vhodných pro ohřev nebo výrobu páry.</p>
-                </section>
-                
-                <section>
-                    <h2>Výhody a nevýhody</h2>
-                    <h3>Výhody</h3>
-                    <ul>
-                        <li>Dokonalá ohnisková vlastnost - soustředění paprsků do jednoho bodu</li>
-                        <li>Vysoká účinnost soustředění energie</li>
-                        <li>Relativně jednoduchá výroba</li>
-                        <li>Dlouhá životnost bez degradace optických vlastností</li>
-                    </ul>
-                    
-                    <h3>Nevýhody</h3>
-                    <ul>
-                        <li>Aberace vně optické osy - rozmazání mimo hlavní osu</li>
-                        <li>Nutnost přesného zarovnání měřidel</li>
-                        <li>Lze použít pouze se zdroji v určitém úhlu</li>
-                        <li>Citlivost na znečištění povrchu</li>
-                    </ul>
                 </section>
             </main>
-            
+
             <footer>
-                <p>&copy; 2026 Parabolické zrcadlo - Vzdělávací web | Gymnázium Žďár nad Sázavou</p>
+                <p>&copy; 2026 Gymnázium Žďár nad Sázavou</p>
             </footer>
         </div>
     </body>
